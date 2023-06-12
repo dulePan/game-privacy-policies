@@ -14,7 +14,8 @@ idleboxfactory/app/src/main/AndroidManifest.xml
  <uses-permission android:name="android.permission.VIBRATE" />
  <uses-permission android:name="android.permission.INTERNET"/>
  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
- 
+ <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+
 Permission Why it is required:
 android.permission.INTERNET Required to connect to internet in order to show ads in game.
 com.google.android.gms.permission.AD_ID Required to show ads in game, so I could monitize this work :)
